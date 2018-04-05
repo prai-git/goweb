@@ -27,6 +27,7 @@ func render(w http.ResponseWriter, tmpl string, context map[string]interface{}) 
 
 func main() {
 	userAges := map[string]int{
+
 		"Alice":  25,
 		"Bob":    30,
 		"Claire": 29,
